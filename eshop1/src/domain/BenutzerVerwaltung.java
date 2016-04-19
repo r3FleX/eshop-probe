@@ -9,6 +9,7 @@ import persistence.FilePersistenceManager;
 import persistence.PersistenceManager;
 
 import valueobjects.Account;
+import valueobjects.Artikel;
 import valueobjects.Kunde;
 import valueobjects.Mitarbeiter;
 
@@ -28,6 +29,7 @@ public class BenutzerVerwaltung {
 	// Verwaltung der Accounts als Liste
 	// Als Implementierung der Liste dient ein Vektor
 	private List<Account> accountBestand = new Vector<Account>();
+	private List<Artikel> artikelbestand = new Vector<Artikel>();
 	
 	
 	// Persistenz-Schnittstelle, die fuer die Details des Dateizugriffs
